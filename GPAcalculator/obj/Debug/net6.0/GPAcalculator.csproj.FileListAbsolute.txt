@@ -1,0 +1,15 @@
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/bin/Debug/net6.0/GPAcalculator
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/bin/Debug/net6.0/GPAcalculator.deps.json
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/bin/Debug/net6.0/GPAcalculator.runtimeconfig.json
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/bin/Debug/net6.0/GPAcalculator.dll
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/bin/Debug/net6.0/GPAcalculator.pdb
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.csproj.AssemblyReference.cache
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.AssemblyInfoInputs.cache
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.AssemblyInfo.cs
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.csproj.CoreCompileInputs.cache
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.dll
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/refint/GPAcalculator.dll
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.pdb
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/GPAcalculator.genruntimeconfig.cache
+/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/Debug/net6.0/ref/GPAcalculator.dll
