@@ -14,17 +14,15 @@
     {
         case "1":
             int numberOfCourses;
+            Console.Write("How many courses did you offer?- ");
+            numberOfCourses = Convert.ToInt32(Console.ReadLine());
             do
             {
-                
-                Console.Write("How many courses did you offer?- ");
-                numberOfCourses = Convert.ToInt32(Console.ReadLine());
-
                 Console.Write("Enter number of credit hour(s) for the course: ");
-                string creditHours = Console.ReadLine();
+                int creditHours = Convert.ToInt32(Console.ReadLine());
 
                 Console.Write("Enter your grade for this course: ");
-                string grade = Console.ReadLine();
+                string grade = Console.ReadLine().ToUpper();
                 rounds++;
             } while (rounds < numberOfCourses);
             
