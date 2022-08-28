@@ -9,7 +9,7 @@
     Console.WriteLine("\t\t2: Calculate CGPA");
     string option = Console.ReadLine();
 
-    int rounds = 0;
+    int askAgain = 0;
     switch (option)
     {
         case "1":
@@ -23,8 +23,8 @@
 
                 Console.Write("Enter your grade for this course: ");
                 string grade = Console.ReadLine().ToUpper();
-                rounds++;
-            } while (rounds < numberOfCourses);
+                askAgain++;
+            } while (askAgain < numberOfCourses);
             
 
             break;
