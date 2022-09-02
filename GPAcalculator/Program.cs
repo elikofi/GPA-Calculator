@@ -127,27 +127,27 @@ try
                 Console.WriteLine("Enter your GPA: ");
                 GPA = Convert.ToDouble(Console.ReadLine());
 
-                if (GPA > 3.60)
+                if (GPA >= 3.60)
                 {
                     Console.WriteLine($"You have a First Class Honours.");
                 }
-                else if (GPA > 3.00)
+                else if (GPA >= 3.00)
                 {
                     Console.WriteLine("You have a Second Class Honours (Upper Division).");
                 }
-                else if (GPA > 2.00)
+                else if (GPA >= 2.00)
                 {
                     Console.WriteLine("You have a Second Class Honours (Lower Division).");
                 }
-                else if (GPA > 1.50)
+                else if (GPA >= 1.50)
                 {
                     Console.WriteLine("You have a Third Class.");
                 }
-                else if (GPA > 1.00)
+                else if (GPA >= 1.00)
                 {
                     Console.WriteLine("You have a Pass.");
                 }
-                else if (GPA > 0.00)
+                else if (GPA >= 0.00)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("You failed Terribly!!");
