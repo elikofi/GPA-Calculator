@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{A9C86BD0-B864-43B0-9E78-57354F546A3B}|Default">
-  <MonoDevelop.Ide.ItemProperties.GPAcalculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GPAcalculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="GPAcalculator/Program.cs">
     <Files>
-      <File FileName="GPAcalculator/Program.cs" Line="147" Column="18" />
+      <File FileName="GPAcalculator/Program.cs" Line="125" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,6 +21,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -1,4 +1,5 @@
-﻿int numberOfCourses, creditHours = 0;
+﻿//assigning of variables.
+int numberOfCourses, creditHours = 0;
 double GPA, fGPA, sGPA, tGPA, fthGPA, finalGPA = 0;
 
 try
@@ -25,20 +26,20 @@ try
                 double totalCreditHours = 0;
                 do
                 {
-                    Console.Write("Enter number of credit hour(s) for the course: ");
+                    Console.Write("Enter number of credit hour(s) for the course:- ");
                     creditHours = Convert.ToInt32(Console.ReadLine());
 
 
                     Console.WriteLine("Choose the grade you had: ");
-                    Console.WriteLine("1. A");
-                    Console.WriteLine("2. B+");
-                    Console.WriteLine("3. B");
-                    Console.WriteLine("4. C+");
-                    Console.WriteLine("5. C");
-                    Console.WriteLine("6. D+");
-                    Console.WriteLine("7. D");
-                    Console.WriteLine("8. E");
-                    Console.WriteLine("9. F");
+                    Console.WriteLine("\t\t1. A");
+                    Console.WriteLine("\t\t2. B+");
+                    Console.WriteLine("\t\t3. B");
+                    Console.WriteLine("\t\t4. C+");
+                    Console.WriteLine("\t\t5. C");
+                    Console.WriteLine("\t\t6. D+");
+                    Console.WriteLine("\t\t7. D");
+                    Console.WriteLine("\t\t8. E");
+                    Console.WriteLine("\t\t9. F");
 
                     string grade = Console.ReadLine().ToUpper();
                     double gradePoint = 0;
@@ -121,7 +122,7 @@ try
                     Console.WriteLine($"\t\tYour GPA is {gPA}");
                 } while (askAgain < numberOfCourses);
                 break;
-
+                //will add a message to tell them their class atm.
 
             case "2":
                 Console.WriteLine("Enter your GPA: ");
@@ -161,6 +162,7 @@ try
                 }
                 break;
             default:
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Enter a valid input!");
                 break;
         }
