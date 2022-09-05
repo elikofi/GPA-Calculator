@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/GPAcalculator.csproj",
+      "projectUniqueName": "/Users/elijahamoako/Desktop/Portfolio/C#/GPAcalculator/GPAcalculator/GPAcalculator.csproj",
       "projectName": "GPAcalculator",
-      "projectPath": "/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/GPAcalculator.csproj",
+      "projectPath": "/Users/elijahamoako/Desktop/Portfolio/C#/GPAcalculator/GPAcalculator/GPAcalculator.csproj",
       "packagesPath": "/Users/elijahamoako/.nuget/packages/",
-      "outputPath": "/Users/elijahamoako/Projects/GPAcalculator/GPAcalculator/obj/",
+      "outputPath": "/Users/elijahamoako/Desktop/Portfolio/C#/GPAcalculator/GPAcalculator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/elijahamoako/.nuget/NuGet/NuGet.Config"

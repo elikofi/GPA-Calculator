@@ -29,17 +29,16 @@ try
                     Console.Write("Enter number of credit hour(s) for the course:- ");
                     creditHours = Convert.ToInt32(Console.ReadLine());
 
-
                     Console.WriteLine("Choose the grade you had: ");
-                    Console.WriteLine("\t\t1. A");
-                    Console.WriteLine("\t\t2. B+");
-                    Console.WriteLine("\t\t3. B");
-                    Console.WriteLine("\t\t4. C+");
-                    Console.WriteLine("\t\t5. C");
-                    Console.WriteLine("\t\t6. D+");
-                    Console.WriteLine("\t\t7. D");
-                    Console.WriteLine("\t\t8. E");
-                    Console.WriteLine("\t\t9. F");
+                    Console.WriteLine("\t\t\t1. A");
+                    Console.WriteLine("\t\t\t2. B+");
+                    Console.WriteLine("\t\t\t3. B");
+                    Console.WriteLine("\t\t\t4. C+");
+                    Console.WriteLine("\t\t\t5. C");
+                    Console.WriteLine("\t\t\t6. D+");
+                    Console.WriteLine("\t\t\t7. D");
+                    Console.WriteLine("\t\t\t8. E");
+                    Console.WriteLine("\t\t\t9. F");
 
                     string grade = Console.ReadLine().ToUpper();
                     double gradePoint = 0;
@@ -166,11 +165,10 @@ try
                 Console.WriteLine("Enter a valid input!");
                 break;
         }
+        Console.ResetColor();
         Console.WriteLine("\nWould you like to perform another calculation? - (Yes = Y / No = N).");
-        
     } while (Console.ReadLine().ToUpper() == "Y");
 }
-
 
 catch (Exception ex)
 {
